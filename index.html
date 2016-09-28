@@ -7,28 +7,36 @@
 		<title>Jeff Swearingen</title>
 	</head>
 	<body>
+
+
 		<!-- stylesheet link to style.css -->
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		
+
 		<section class="navbar">
 			<!-- main logo -->
 			<h1 class="logo heading-font">Jeff Swearingen</h1>
 
 			<!-- navigation bar -->
-			<section class="about">About</section>
-			<section class="portfolio">Portfolio</section>
-			<section class="contact">Contact</section>
+			<section class="smallnav">
+				<section class="other-fonts about"><a href="index.html">About</a></section>
+				<section class="other-fonts portfolio"><a href="portfolio.html">Portfolio</a></section>
+				<section class="other-fonts contact"><a href="contact.html">Contact</a></section>
+			</section>
 		</section>
 		
 		<section class="maincontent">
 			<!-- main content -->
 			<h1 class="heading-font page-header">About Me</h1>
 
-			<img src="assets/images/IMG_2638.jpg" alt="Jeff Swearingen picture" width="200"/>
+			<div class="h_line"></div>
 
-			<p>I am a full-stack web developer living in Windermere, FL.  I relocated to Florida in 2012.  I am currently enrolled in the UCF Coding Boot Camp, and will complete this program in March 2017.  Previously I have worked for the United States Patent and Trademark Office as a Primary Patent Examiner, deciding whether to grant or deny patents in the areas of Computer Networking, Plural Computing, and Stereoscopic Television.  My background is Computer Engineering, and I am a licensed attorney in the Commonwealth of Virginia.</p>
+			<img class="jeffimage" src="assets/images/IMG_2638.jpg" alt="Jeff Swearingen picture"/>
 
-			<p>I have experience designing web pages and web sites.  Below are some of the technologies I have experience with using.</p>
+			<p class=".other-fonts">I am a full-stack web developer living in Windermere, FL.  I relocated to Florida in 2012.  I am currently enrolled in the UCF Coding Boot Camp, and will complete this program in March 2017.  Previously I have worked for the United States Patent and Trademark Office as a Primary Patent Examiner, deciding whether to grant or deny patents in the areas of Computer Networking, Plural Computing, and Stereoscopic Television.  My background is Computer Engineering, and I am a licensed attorney in the Commonwealth of Virginia.</p>
+
+			<p class=".other-fonts">I have experience designing web pages and web sites.  Below are some of the technologies I have experience with using.</p>
 
 			<ul>
 				<li>HTML/CSS</li>
@@ -55,17 +63,23 @@
 				<li>AngularJS - in progress</li>
 			</ul>
 		</section>
-		<!-- connect box -->
-		<h3>Connect with Me</h3>
-		<!-- Github icon -->
-		<a href="#"><img src="assets/images/github.png" alt="Github icon"></a>
-		<!-- LinkedIn icon -->
-		<a href="#"><img src="assets/images/square-linkedin.png" alt="Linkedin icon"></a>
-		<!-- Stack Overflow -->
-		<a href="#"><img src="assets/images/stackoverflow.png" alt="Stackoverflow icon"></a>
 
-		<!-- footer -->
-		<h6>&copy; Copyright 2016 Jeff Swearingen</h6>
+		<aside class="aside-icons">
+			<!-- connect box -->
+			<h3 class="heading-font page-header">Connect with Me</h3>
+			<div class="h_line"></div>
 
+			<!-- Github icon -->
+			<a href="https://www.github.com/jeffswearingen/" target="_blank"><img src="assets/images/github.png" alt="Github icon"></a>
+			<!-- LinkedIn icon -->
+			<a href="https://www.linkedin.com/in/jeff-swearingen-45ab8b4" target="_blank"><img src="assets/images/square-linkedin.png" alt="Linkedin icon"></a>
+			<!-- Stack Overflow -->
+			<a href="http://stackexchange.com/users/9215679/jeff-swearingen" target="_blank"><img src="assets/images/stackoverflow.png" alt="Stackoverflow icon"></a>
+		</aside>
+
+		<footer class="fixed-footer">
+			<!-- footer -->
+			<h6 class="other-fonts">&copy; Copyright 2016 Jeff Swearingen</h6>
+		</footer>
 	</body>
 </html>
