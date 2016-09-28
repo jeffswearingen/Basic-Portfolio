@@ -216,3 +216,22 @@ h1 {
 	padding-top: 25px;
 }
 
+.maincontent form {
+	margin: 20px;
+}
+
+.maincontent form .field {
+	margin: 10px auto;
+	width: 100%;
+}
+
+.maincontent form .message_field {
+	height: 200px;
+}
+
+.maincontent form .btn {
+	background-color: #4aaaa5;
+	color: white;
+	font-size:15px;
+	padding: 10px 20px 10px 20px;
+}
