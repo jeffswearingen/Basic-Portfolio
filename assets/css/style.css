@@ -108,9 +108,9 @@ h1 {
 	background-color: #4aaaa5;
 	text-align: center;
 	padding: 10px;
-	bottom: 100px;
+	bottom: 70px;
 	width: 180px;
-
+	position: relative;
 }
 
 /*.portfolio {
@@ -175,8 +175,11 @@ h1 {
 	width: 85%;
 }
 
-.portfolio-items {
-
+.portfolio-items-pictures {
+	margin: 40px;
+	overflow: auto;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .aside-icons {
@@ -212,6 +215,12 @@ h1 {
 	font-size: 10px;
 }
 
+.fixed-footer .footer-line {
+	width: 100%;
+	height: 5px;
+	background-color: #4aaaa5;
+}
+
 .fixed-footer h6 {
 	padding-top: 25px;
 }
@@ -234,4 +243,36 @@ h1 {
 	color: white;
 	font-size:15px;
 	padding: 10px 20px 10px 20px;
+}
+
+.portfolio-a {
+	float: left;
+	margin: auto;
+}
+
+.portfolio-b {
+	float: right;
+	margin-left: 40px;
+}
+
+.portfolio-c {
+	margin-top: 0px;
+	float: left;
+}
+
+.portfolio-d {
+	margin-top: 0px;
+	float: right;
+	margin-left: 40px;
+}
+
+.portfolio-e {
+	margin-top: 0px;
+	float: left;
+}
+
+.portfolio-f {
+	margin-top: 0px;
+	float: right;
+	margin-left: 40px;
 }
